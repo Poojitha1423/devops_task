@@ -11,5 +11,4 @@ def hello_world():
 def hello():
  return "<p>POOJ </p>"
 
-health.add_check(hello)
 app.add_url_rule("/healthcheck", "healthcheck", view_func=lambda: health.run())
