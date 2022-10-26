@@ -9,6 +9,6 @@ def hello_world():
 
 @app.route("/PJ")
 def hello():
- return "<p>POOJ </p>"
+ return "<p>POOJa</p>"
 
 app.add_url_rule("/healthcheck", "healthcheck", view_func=lambda: health.run())
